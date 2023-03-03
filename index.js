@@ -61,7 +61,7 @@ function updateTime(){
     function formatTime(unit){
         return (("0") + unit).length > 2 ? unit : "0" + unit;
     }
-    
+
     function formatMili(unit){
         unit = String(unit);
         if(unit.length == 3){
@@ -75,5 +75,3 @@ function updateTime(){
         }
     }
 }
-
-console.log(Date.now())
