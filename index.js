@@ -46,12 +46,12 @@ resetBtn.addEventListener("click", () => {
 function updateTime(){
     elapsedTime = Date.now() - startTime;
 
-    miliseconds = Math.floor(elapsedTime % 60);
+    miliseconds = Math.floor(elapsedTime % 1000);
     seconds = Math.floor(elapsedTime / 1000 % 60);
     minutes = Math.floor(elapsedTime / 1000 / 60 % 60);
     hours = Math.floor(elapsedTime / 1000 / 60 / 60 % 60);
 
-    miliseconds = formatTime(miliseconds);
+    miliseconds = formatMili(miliseconds);
     seconds = formatTime(seconds);
     minutes = formatTime(minutes);
     hours = formatTime(hours);
@@ -61,4 +61,19 @@ function updateTime(){
     function formatTime(unit){
         return (("0") + unit).length > 2 ? unit : "0" + unit;
     }
+    
+    function formatMili(unit){
+        unit = String(unit);
+        if(unit.length == 3){
+            return unit.slice(0, 2);
+        }
+        else if(unit.length == 2){
+            return unit;
+        }
+        else if(unit.length == 1){
+            return "0" + unit;
+        }
+    }
 }
+
+console.log(Date.now())
