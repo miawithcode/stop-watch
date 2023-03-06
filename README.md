@@ -19,6 +19,3 @@
     1. 将所有变量设置为0
     2. 用`clearInterval()`取消`setInterval()`设置的重复任务。
     3. 将HTML页面的文本设置为**00:00:00:00**。
-
-## 其他
-以上是精简后的代码逻辑，我把更详细的代码实现逻辑写[博客](https://cuttontail.blog/project/stop-watch/)里。
