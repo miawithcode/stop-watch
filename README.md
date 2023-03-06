@@ -1,5 +1,5 @@
 # Stop Watch 秒表计时器
-![](stop-watch.png)
+![](images/stop-watch.png)
 
 **Live Demo**: https://mia-stop-watch.netlify.app/ 
 
