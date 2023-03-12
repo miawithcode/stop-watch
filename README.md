@@ -21,4 +21,4 @@
     3. 将HTML页面的文本设置为**00:00:00:00**。
 
 ## Blog
-写了一篇Blog讲解完整代码的逻辑与实现 - [如何用JavaScript实现一个秒表计时器](https://cuttontail.blog/blog/how-to-build-a-stop-watch-in-javascript/)
+[如何用JavaScript实现一个秒表计时器](https://cuttontail.blog/blog/how-to-build-a-stop-watch-in-javascript/)
