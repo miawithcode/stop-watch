@@ -73,6 +73,22 @@
     }
 }
 
+@media (max-width: 1280px) {
+    .stop-watch{
+        width: 50%;
+        height: 30%;
+        border: 6px solid black;
+    }
+}
+
+@media (max-width: 1024px) {
+    .stop-watch{
+        width: 60%;
+        height: 30%;
+        border: 6px solid black;
+    }
+}
+
 @media (max-width: 992px) {
     .stop-watch{
         width: 70%;
@@ -109,5 +125,58 @@
         font-size: 1rem;
         padding: 5px 10px;
         border: 2px solid black;
+    }
+}
+
+@media (max-width: 414px) {
+    .stop-watch{
+        width: 70%;
+        height: 20%;
+        border: 4px solid black;
+    }
+    #timeDisplay{
+        font-size: 2.2rem;
+    }
+    .time-btn{
+        font-size: 1rem;
+        padding: 3px 8px;
+        border: 2px solid black;
+    }
+}
+
+@media (max-width: 375px) {
+    .stop-watch{
+        width: 70%;
+        height: 20%;
+        border: 4px solid black;
+    }
+    #timeDisplay{
+        font-size: 2rem;
+    }
+    .time-btn{
+        font-size: .8rem;
+        padding: 3px 8px;
+        border: 2px solid black;
+    }
+}
+
+@media (max-width: 280px) {
+    .stop-watch{
+        width: 70%;
+        height: 20%;
+        border: 3px solid black;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-evenly;
+        gap: .5rem;
+    }
+    #timeDisplay{
+        font-size: 1.5rem;
+    }
+    .time-btn{
+        font-size: .6rem;
+        padding: 3px 8px;
+        border: 1.5px solid black;
     }
 }
